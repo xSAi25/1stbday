@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#ff3b30" />
+  <title>Calix Primozzi | My First Lap</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="locked">
+  <section id="intro" class="intro">
+    <div class="cloud c1"></div><div class="cloud c2"></div>
+    <div class="checkers"></div>
+    <div class="intro-card">
+      <div class="tiny-tag">🏁 A VERY SPECIAL RACE DAY</div>
+      <div class="big-one">1</div>
+      <h1>MY FIRST<br><span>LAP!</span></h1>
+      <p></p>
+      <div class="baby-car" aria-hidden="true">🏎️💨</div>
+      <div class="start-lights" aria-label="Starting lights"><span></span><span></span><span></span></div>
+      <button id="enterBtn" class="pill-btn" type="button">START THE RACE 🏁</button>
+      <small>Tap to open the invitation</small>
+    </div>
+  </section>
+
+  <main id="site" class="site" aria-hidden="true">
+    <section class="hero section">
+      <div class="topbar"><b>MY FIRST LAP</b><span>NO. 01</span></div>
+      <div class="hero-copy reveal">
+        <div class="tiny-tag">BEEP BEEP! YOU'RE INVITED</div>
+        <h2>CALIX<br><span>PRIMOZZI</span></h2>
+        <p></p>
+      </div>
+      <div class="hero-photo reveal delay-1">
+        <div class="photo-placeholder has-static-image"><img src="1ST LAP.jpg" alt="Calix Primozzi first lap photo"></div>
+        <div class="number-badge">01</div>
+        <div class="sticker">FIRST<br>LAP!</div>
+      </div>
+      <a href="#details" class="down-btn">↓</a>
+    </section>
+
+    <section id="details" class="section cream">
+      <div class="section-title reveal"><span>RACE DAY DETAILS</span><h3>Calix Primozzi</h3></div>
+      <div class="cards">
+        <article class="info-card reveal"><div>📅</div><small>RACE DATE</small><h4>August 08, 2026</h4><p></p></article>
+        <article class="info-card reveal delay-1"><div>⏰</div><small>LIGHTS OUT</small><h4>3:30 PM</h4><p></p></article>
+        <article class="info-card reveal delay-2"><div>📍</div><small>THE TRACK</small><h4>Jollibee Indang</h4><p></p></article>
+      </div>
+    </section>
+
+    <section class="section racer-section">
+      <div class="racer-photo reveal"><div class="photo-placeholder has-static-image"><img src="favorite photo.jpg" alt="Favorite photo of Calix Primozzi"></div></div>
+      <div class="racer-copy reveal delay-1">
+        <div class="tiny-tag yellow">MEET THE CELEBRANT</div>
+        <h3>Save the Date</h3>
+        <p></p>
+        <div class="mini-stats"><div><b>1</b><span>YEAR OLD</span></div><div><b>365</b><span>DAYS OF JOY</span></div><div><b>∞</b><span>LOVE</span></div></div>
+      </div>
+    </section>
+
+    <section class="section countdown-section">
+      <div class="section-title reveal"><span>COUNTDOWN TO THE BIG DAY</span><h3>August 08, 2026</h3></div>
+      <div class="timer reveal" id="timer">
+        <div><b id="days">000</b><span>DAYS</span></div><i>:</i>
+        <div><b id="hours">00</b><span>HRS</span></div><i>:</i>
+        <div><b id="minutes">00</b><span>MIN</span></div><i>:</i>
+        <div><b id="seconds">00</b><span>SEC</span></div>
+      </div>
+      <p id="countdownNote"></p>
+    </section>
+
+    <section id="milestones" class="section milestone-section">
+      <div class="section-title reveal">
+        <span>FROM THE STARTING LINE TO ONE</span>
+        <h3></h3>
+        <p class="milestone-intro"></p>
+      </div>
+
+      <div class="milestone-track" aria-label="Baby milestone timeline">
+        <article class="milestone-card reveal" data-milestone="newborn">
+          <div class="checkpoint"><span>START</span></div>
+          <button class="milestone-photo has-image lightbox-trigger" type="button" aria-label="Open milestone photo"><img alt="Newborn milestone photo" src="new born.jpg"></button>
+          <div class="milestone-copy"><small>NEWBORN</small><h4>Hello, World!</h4><p></p></div>
+        </article>
+        <article class="milestone-card reveal" data-milestone="month-1">
+          <div class="checkpoint"><span>01</span></div>
+          <button class="milestone-photo has-image lightbox-trigger" type="button" aria-label="Open milestone photo"><img alt="1st month milestone photo" src="1st month.jpg"></button>
+          <div class="milestone-copy"><small>1ST MONTH</small><h4>First Smiles</h4><p></p></div>
+        </article>
+        <article class="milestone-card reveal" data-milestone="month-2">
+          <div class="checkpoint"><span>02</span></div>
+          <button class="milestone-photo has-image lightbox-trigger" type="button" aria-label="Open milestone photo"><img alt="2nd month milestone photo" src="2nd month.jpg"></button>
+          <div class="milestone-copy"><small>2ND MONTH</small><h4>Growing Strong</h4><p></p></div>
+        </article>
+        <article class="milestone-card reveal" data-milestone="month-3">
+          <div class="checkpoint"><span>03</span></div>
+          <button class="milestone-photo has-image lightbox-trigger" type="button" aria-label="Open milestone photo"><img alt="3rd month milestone photo" src="3rd month.jpg"></button>
+          <div class="milestone-copy"><small>3RD MONTH</small><h4>Happy Baby</h4><p></p></div>
+        </article>
+        <article class="milestone-card reveal" data-milestone="month-4">
+          <div class="checkpoint"><span>04</span></div>
+          <button class="milestone-photo has-image lightbox-trigger" type="button" aria-label="Open milestone photo"><img alt="4th month milestone photo" src="4th month.jpg"></button>
+          <div class="milestone-copy"><small>4TH MONTH</small><h4>Little Explorer</h4><p></p></div>
+        </article>
+        <article class="milestone-card reveal" data-milestone="month-5">
+          <div class="checkpoint"><span>05</span></div>
+          <button class="milestone-photo has-image lightbox-trigger" type="button" aria-label="Open milestone photo"><img alt="5th month milestone photo" src="5th month.jpg"></button>
+          <div class="milestone-copy"><small>5TH MONTH</small><h4>Play Time</h4><p></p></div>
+        </article>
+        <article class="milestone-card reveal" data-milestone="month-6">
+          <div class="checkpoint"><span>06</span></div>
+          <button class="milestone-photo has-image lightbox-trigger" type="button" aria-label="Open milestone photo"><img alt="6th month milestone photo" src="6th month.jpg"></button>
+          <div class="milestone-copy"><small>6TH MONTH</small><h4>Halfway to One!</h4><p></p></div>
+        </article>
+        <article class="milestone-card reveal" data-milestone="month-7">
+          <div class="checkpoint"><span>07</span></div>
+          <button class="milestone-photo has-image lightbox-trigger" type="button" aria-label="Open milestone photo"><img alt="7th month milestone photo" src="7th month.jpg"></button>
+          <div class="milestone-copy"><small>7TH MONTH</small><h4>On the Move</h4><p></p></div>
+        </article>
+        <article class="milestone-card reveal" data-milestone="month-8">
+          <div class="checkpoint"><span>08</span></div>
+          <button class="milestone-photo has-image lightbox-trigger" type="button" aria-label="Open milestone photo"><img alt="8th month milestone photo" src="8 month.jpg"></button>
+          <div class="milestone-copy"><small>8TH MONTH</small><h4>Clever Baby</h4><p></p></div>
+        </article>
+        <article class="milestone-card reveal" data-milestone="month-9">
+          <div class="checkpoint"><span>09</span></div>
+          <button class="milestone-photo has-image lightbox-trigger" type="button" aria-label="Open milestone photo"><img alt="9th month milestone photo" src="9th month.jpg"></button>
+          <div class="milestone-copy"><small>9TH MONTH</small><h4>Tiny Teeth</h4><p></p></div>
+        </article>
+        <article class="milestone-card reveal" data-milestone="month-10">
+          <div class="checkpoint"><span>10</span></div>
+          <button class="milestone-photo has-image lightbox-trigger" type="button" aria-label="Open milestone photo"><img alt="10th month milestone photo" src="10th month.jpg"></button>
+          <div class="milestone-copy"><small>10TH MONTH</small><h4>Standing Tall</h4><p></p></div>
+        </article>
+        <article class="milestone-card reveal" data-milestone="month-11">
+          <div class="checkpoint"><span>11</span></div>
+          <button class="milestone-photo has-image lightbox-trigger" type="button" aria-label="Open milestone photo"><img alt="11th month milestone photo" src="11th month.jpg"></button>
+          <div class="milestone-copy"><small>11TH MONTH</small><h4>Almost One</h4><p></p></div>
+        </article>
+        <article class="milestone-card finish reveal" data-milestone="month-12">
+          <div class="checkpoint"><span>12</span></div>
+          <button class="milestone-photo has-image lightbox-trigger" type="button" aria-label="Open milestone photo"><img alt="12th month milestone photo" src="12th month.jpg"></button>
+          <div class="milestone-copy"><small>12TH MONTH</small><h4>My First Lap!</h4><p></p></div>
+          <div class="finish-flag">🏁 FINISH LINE</div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section cream">
+      <div class="section-title reveal"><span>TINY MOMENTS, BIG MEMORIES</span><h3></h3></div>
+      <div class="mobile-gallery">
+        <div class="photo-placeholder reveal has-static-image"><img src="BIG MOMENT 1.jpg" alt="Calix Primozzi big moment 1"></div>
+        <div class="photo-placeholder reveal has-static-image"><img src="BIG MOMENT 2.jpg" alt="Calix Primozzi big moment 2"></div>
+        <div class="photo-placeholder reveal has-static-image"><img src="BIG MOMENT 3.jpg" alt="Calix Primozzi big moment 3"></div>
+        <div class="memory-card reveal"><b>“</b><p></p>🏁</div>
+      </div>
+    </section>
+
+
+
+
+    <section class="section cream extra-info-section">
+      <div class="section-title reveal"><span>A LITTLE NOTE FROM THE PIT CREW</span><h3></h3></div>
+      <div class="guide-card reveal">
+        <div class="guide-icon">🎁</div>
+        <h4>Your presence is the best present!</h4>
+        <p></p>
+        <div class="gift-chips">
+          <span>🧸 Toys for 1+ year old</span>
+          <span>📚 Board books</span>
+          <span>👕 Clothes — size 12–18 months</span>
+          <span>✉️ Monetary gift</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reminders-section">
+      <div class="section-title reveal"><span>BEFORE YOU HIT THE TRACK</span><h3>PARTY<br><b>REMINDERS</b></h3></div>
+      <div class="reminder-list">
+        <article class="reminder-item reveal"><div>⏰</div><p><b>PLEASE ARRIVE ON TIME</b><span>Come a little early so we can take photos before the race begins.</span></p></article>
+        <article class="reminder-item reveal"><div>📱</div><p><b>CAPTURE THE MOMENTS</b><span>Take lots of photos and videos, and don’t forget to share them with the family.</span></p></article>
+        <article class="reminder-item reveal"><div>👶</div><p><b>KEEP LITTLE RACERS SAFE</b><span>Please keep an eye on children during playtime and around party equipment.</span></p></article>
+        <article class="reminder-item reveal"><div>💛</div><p><b>BRING YOUR BEST SMILES</b><span>The most important thing is to celebrate, have fun, and make happy memories together.</span></p></article>
+      </div>
+    </section>
+
+    <section class="section cream dress-code-section">
+      <div class="section-title reveal"><span>SUIT UP FOR RACE DAY</span><h3></h3></div>
+      <div class="dress-card reveal">
+        <div class="helmet">🏎️</div>
+        <h4>Racing Casual</h4>
+        <p></p>
+        <div class="color-lane">
+          <div><i class="swatch red"></i><span>Red</span></div>
+          <div><i class="swatch blue"></i><span>Blue</span></div>
+          <div><i class="swatch yellow"></i><span>Yellow</span></div>
+          <div><i class="swatch black"></i><span>Black</span></div>
+          <div><i class="swatch white"></i><span>White</span></div>
+        </div>
+        <small>Checkered patterns and racing-inspired outfits are welcome too! 🏁</small>
+      </div>
+    </section>
+
+    <section class="section cream venue-section">
+      <div class="section-title reveal"><span>FIND THE STARTING LINE</span><h3>JOLLIBEE<br><b>INDANG</b></h3></div>
+      <div class="map-card reveal"><div class="road"></div><div class="pin">📍</div><strong>Jollibee Indang</strong><span>Indang, Cavite, Philippines</span></div>
+      <a class="pill-btn dark" href="https://maps.app.goo.gl/Nn5vjipepCcHtDvD9" target="_blank" rel="noopener">OPEN IN MAPS ↗</a>
+    </section>
+
+    <section class="section rsvp-section">
+      <div class="rsvp-card reveal">
+        <div class="flag-strip"></div>
+        <div class="tiny-tag">JOIN THE STARTING GRID</div>
+        <h3></h3>
+        <p></p>
+        <form id="rsvpForm">
+          <input id="guestName" type="text" placeholder="Your name" required>
+          <select id="attendance" required><option value="">Can you come?</option><option value="yes">🏁 Yes, we'll be there!</option><option value="no">💛 Sorry, we can't make it</option></select>
+          <button class="pill-btn" type="submit">CONFIRM RSVP</button>
+        </form>
+        <div id="rsvpMessage" class="rsvp-message" role="status"></div>
+      </div>
+    </section>
+
+    <footer><div>🏎️💨</div><b>SEE YOU AT THE STARTING LINE!</b><small>Our little racer is turning ONE.</small></footer>
+  </main>
+
+  <div id="photoLightbox" class="photo-lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Photo viewer">
+    <button id="lightboxClose" class="lightbox-close" type="button" aria-label="Close photo viewer">×</button>
+    <button id="zoomOut" class="zoom-control zoom-out" type="button" aria-label="Zoom out">−</button>
+    <button id="zoomIn" class="zoom-control zoom-in" type="button" aria-label="Zoom in">+</button>
+    <button id="zoomReset" class="zoom-reset" type="button">Reset</button>
+    <div class="lightbox-stage">
+      <img id="lightboxImage" src="" alt="Expanded milestone photo">
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
