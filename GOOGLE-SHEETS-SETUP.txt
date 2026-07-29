@@ -1,0 +1,13 @@
+GOOGLE SHEET SETUP
+
+Sheet tab name: RSVP
+
+Row 1 headers:
+Timestamp | Name | Can you come?
+
+The website sends:
+- Name
+- RSVP response: Yes, we'll be there / Sorry, we can't make it
+
+IMPORTANT:
+The website sends the response in both the "response" and "message" fields, so your currently deployed Apps Script will still work. For cleaner code, replace your Apps Script with GOOGLE-APPS-SCRIPT.gs and redeploy the Web App as a new version.
